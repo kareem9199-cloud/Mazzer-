@@ -43,7 +43,7 @@ export default function Navbar() {
       <div className="container flex h-20 items-center justify-between">
         <Link href="/">
           <a className="flex items-center gap-2 font-heading font-bold text-2xl text-primary">
-            <span className="text-3xl">⚓</span>
+            <img src="/images/logo.png" alt="Mazzer Investment Logo" className="h-16 w-16 object-contain" />
             <div className="flex flex-col leading-none">
               <span>مازر للاستثمار</span>
               <span className="text-xs font-sans font-normal text-muted-foreground">Mazzer Investment LLC</span>
@@ -85,7 +85,7 @@ export default function Navbar() {
             <div className="flex flex-col gap-8 mt-8">
               <Link href="/" onClick={() => setIsOpen(false)}>
                 <a className="flex items-center gap-2 font-heading font-bold text-xl text-primary">
-                  <span className="text-2xl">⚓</span>
+                  <img src="/images/logo.png" alt="Mazzer Investment Logo" className="h-12 w-12 object-contain" />
                   <span>مازر للاستثمار</span>
                 </a>
               </Link>
